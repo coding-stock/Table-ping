@@ -45,9 +45,10 @@ export default function TablePage({ id }: { id: string }) {
             <button onClick={requestBill} className="border-2 border-green-950/90 rounded-lg text-green-950/90 font-bold p-3 w-60">Request Bill</button>
           </div>
         </div>
-    <h1 className="text-2xl font-bold text-center mt-5">Honey Restaurant</h1>
+    {/* <h1 className="text-2xl font-bold text-center mt-5">Honey Restaurant</h1>
     <p className="text-center text-gray-600 mt-3">&copy;2026 all rights reserved</p>
-      </main>
+       */}
+  </main>
     </>
   );
 }
